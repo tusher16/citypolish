@@ -1,0 +1,154 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tusher.cityppolish.DashboardScreen"
+     >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+      <!--  <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/lbl_name"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp" />
+
+        <Button
+            android:id="@+id/btnsendorupload"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dip"
+            android:background="@color/btn_logut_bg"
+            android:text="Send or Upload photo"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+        <Button
+            android:id="@+id/btnnewsfeed"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dip"
+            android:background="@color/btn_logut_bg"
+            android:text="News Feed"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/join_comunity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@color/btn_logut_bg"
+            android:text="Join Community"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:background="@color/btn_logut_bg"
+            android:text="@string/btn_logout"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp" />  -->
+
+        <GridLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:orientation="horizontal"
+            android:rowCount="3"
+            tools:context="com.example.tusher.cityppolish.DashboardScreen">
+
+            <ImageButton
+                android:id="@+id/btnreport"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:src="@drawable/takepictures"
+                />
+
+            <ImageButton
+                android:id="@+id/btnnewsfeed"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:src="@drawable/nnewsfeed" />
+
+
+
+            <ImageButton
+                android:id="@+id/join_comunity"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:src="@drawable/ccommunity" />
+
+            <ImageButton
+                android:id="@+id/searchImageButton4"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:src="@drawable/settings_2" />
+
+            <ImageButton
+                android:id="@+id/searchImageButton5"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:src="@drawable/pro_file" />
+
+            <ImageButton
+                android:id="@+id/btnLogout"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:src="@drawable/log_out" />
+
+
+        </GridLayout>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
